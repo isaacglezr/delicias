@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="medicos_form_view">
+            <field name="name">medicos.form</field>
+            <field name="model">medicos.delicias</field>
+            <field name="arch" type="xml">
+                <form string="Medicos">
+                    <group>
+                        <field name="x_DocName"/>
+                        <field name="x_Especialidad"/>
+                        <field name="x_movil"/>
+                    </group>                  
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
